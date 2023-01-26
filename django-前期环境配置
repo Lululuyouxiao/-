@@ -1,0 +1,10 @@
+难绷，下次在别处写好再复制到这里，连接不上一刷新全没了
+——————
+python版本3.7.3，django最新版本会有部分算法因为专利问题无法使用，需要下载一个兼容的低版本的django
+pip安装django 3.2.16，查看版本的命令：python -m django --version
+cd到想创建项目的目录，开始创建项目：django-admin startproject test1(项目名)
+如果出错可能是环境变量的问题
+vscode中添加django扩展
+在项目路径下开启终端：python manage.py runserver 8001
+提示要安装应用，输入提示的命令：python manage.py migrate
+重新开启服务器，进入http://127.0.0.1:8001/，显示正常，成功！
